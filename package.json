@@ -1,0 +1,28 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "a monorepo",
+  "private": true,
+  "author": "alex.cheng",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/vue"
+    ]
+  },
+  "keywords": [
+    "monorepo",
+    "lerna",
+    "yarn",
+    "workspace"
+  ],
+  "scripts": {
+    "format": "prettier packages/**/*.js"
+  },
+  "dependencies": {
+    "prettier": "^2.5.1"
+  }
+}
