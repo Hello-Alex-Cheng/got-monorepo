@@ -1,0 +1,36 @@
+{
+  "name": "@monorepo/lodash-demo",
+  "version": "1.0.0",
+  "description": "a sub-repo about lodash demo",
+  "keywords": [
+    "lodash"
+  ],
+  "author": "18374812274 <1194234765@qq.com>",
+  "homepage": "https://github.com/Hello-Alex-Cheng/got-monorepo#readme",
+  "license": "ISC",
+  "main": "lib/lodash-demo.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hello-Alex-Cheng/got-monorepo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Hello-Alex-Cheng/got-monorepo/issues"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "lodash": "^4.17.21"
+  }
+}
